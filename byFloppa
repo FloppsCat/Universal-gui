@@ -110,7 +110,7 @@ TextButton_2.BorderSizePixel = 0
 TextButton_2.Position = UDim2.new(0, 0, 0.544303775, 0)
 TextButton_2.Size = UDim2.new(0, 174, 0, 49)
 TextButton_2.Font = Enum.Font.SourceSans
-TextButton_2.Text = "Inf Jump"
+TextButton_2.Text = "Inf Jump: OFF"
 TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.TextSize = 14.000
 -- Infinite Jump Variables
