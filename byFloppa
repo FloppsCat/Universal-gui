@@ -3,7 +3,7 @@
 
 -- Instances:
 
-local ScreenGui_1 = Instance.new("ScreenGui")
+local screenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local TextButton = Instance.new("TextButton")
@@ -18,10 +18,10 @@ local TextLabel_4 = Instance.new("TextLabel")
 
 --Properties:
 
-ScreenGui_1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui_1.ResetOnSpawn = false
+screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+screenGui.ResetOnSpawn = false
 
-Frame.Parent = ScreenGui_1
+Frame.Parent = screenGui
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 0
@@ -169,7 +169,7 @@ DestroyButton.Text = "X"
 DestroyButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 DestroyButton.TextSize = 14.000
 DestroyButton.MouseButton1Click:Connect(function()
-	ScreenGui_1.Parent:Destroy()
+	screenGui:Destroy()
 end)
 
 HealthBox.Name = "HealthBox"
